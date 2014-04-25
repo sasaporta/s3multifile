@@ -40,7 +40,7 @@ You'll need an AWS bucket and AWS user with appropriate permissions.
 }
 ```
 From the *Security Credentials" tab, create an Access Key. Take note of the Access Key ID and Secret Access Key. Set the following environment variables:
-AWS_ACCESS_KEY_ID=[your Access Key ID]
-AWS_SECRET_ACCESS_KEY=[your Secret Access Key]
+- AWS_ACCESS_KEY_ID=[your Access Key ID]
+- AWS_SECRET_ACCESS_KEY=[your Secret Access Key]
 
 Now use Python 2.7 to launch test.py. In your web browser, visit http://localhost:8080. Select some files and click *Submit. The files should appear in your S3 bucket!
